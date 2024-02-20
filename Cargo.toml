@@ -1,0 +1,8 @@
+[workspace]
+
+# (ref.) [Virtual workspace](https://doc.rust-lang.org/cargo/reference/workspaces.html#virtual-workspace)
+resolver = "2"
+members = [ "algorithms", "common", "games","main", "tools"]
+
+# (ref.) [Specify "default-run" binary in a workspace project](https://github.com/rust-lang/cargo/issues/7290)
+default-members = ["main"]
